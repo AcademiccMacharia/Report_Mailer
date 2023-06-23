@@ -20,7 +20,7 @@ async function sendMail() {
       attachments: [
         {
           filename: 'BENSON MACHARIA WEEKLY REPORT WEEK 8.docx',
-          path: './src/assets/BENSON MACHARIA WEEKLY REPORT 6.docx',
+          path: './src/assets/BENSON MACHARIA WEEKLY REPORT 8.docx',
         }
       ]
     };
