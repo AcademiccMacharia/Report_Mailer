@@ -14,7 +14,7 @@ async function sendMail() {
 
     const message_options = {
       from: process.env.EMAIL_USER,
-      to: 'remoben9@gmail.com',
+      to: 'jonathan.mwaniki@thejitu.com',
       subject: 'BENSON MACHARIA WEEKLY REPORT WEEK 8',
       html: htmlContent,
       attachments: [
