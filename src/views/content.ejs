@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Email Template</title>
+            <style>
+                body {
+                font-family: Georgia, sans-serif;
+                color: #333333;
+                background-color: #ec6767;
+  }
+                h1 {
+                    color: #007bff;
+  }
+                p {
+                    margin-bottom: 10px;
+  }
+  img{
+        width: 100px;
+        height: 100px;
+  }
+            </style>
+        </head>
+        <body>
+            <h1>Dear sir,</h1>
+            <p>This is to inform you that I have <b>completed</b> the weekly report for week <%= weekNumber %>.</p>
+            <p>Kindly find the attached report.</p>
+            <p>Regards,</p>
+            <p><%= name %></p>
+        </body>
+    </html>
